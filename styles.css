@@ -43,23 +43,32 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    position: relative;
   }
+
 
 .battle1-container{
     position: absolute;
-    left: 37.5%;
-    top: 25%;
+    left: 54.7%;
+    top: 41%;
+    
 }
 
 .battle2-container{
     position: absolute;
-    left: 60.5%;
-    top: 40%;
+    left: 59.5%;
+    top: 41%;
+}
+
+.battle3-container{
+    position: absolute;
+    left: 29%;
+    top: 42.5%;
 }
 
 .card-holder {
-    width: 280px;
-    height: 380px;
+    width: 400px;
+    height: 650px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -78,7 +87,41 @@ body {
     margin: auto; 
 }
 
-.card-holder p {
-    font-size: 10px;
-    font-style: normal;
+
+.card-holder video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+.text {
+  font-size: auto;
+  display: inline-block;
+  text-align: justify;
+  white-space: pre-line;
 }
