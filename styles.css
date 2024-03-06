@@ -66,6 +66,18 @@ body {
     top: 42.5%;
 }
 
+.battle4-container{
+    position: absolute;
+    left: 54.9%;
+    top: 49%;
+}
+
+
+.battle5-container{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
 .card-holder {
     width: 400px;
     height: 650px;
